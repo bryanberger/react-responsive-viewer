@@ -40,8 +40,9 @@ class App extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
 
-     // once submitted, reload all iframes by setting src to the rolling srcNew
-    this.setState({ src: this.state.srcNew })
+    // once submitted, reload all iframes by setting src to the rolling srcNew
+    if(this.state.srcNew)
+      this.setState({ src: this.state.srcNew })
   }
 
   render() {

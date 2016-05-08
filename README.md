@@ -5,13 +5,17 @@ A simple way to load up a proxied whitelist (to bypass x-frame-options) of hosts
 `npm install`
 
 ## Usage
-1. `npm run dev`
-2. Load up a simple http server (I used [node-static](https://github.com/cloudhead/node-static))
-3. `cd src/client/public`
-4. `static .`
-5. Visit `http://localhost:8080`
-6. Adjust height to your liking
-7. Browse a different host/page that you've whitelisted
+1. `npm run build`
+2. `npm start`
+3. Visit `http://localhost:8080`
+4. Adjust height to your liking
+5. Browse a different host/page that you've whitelisted
 
 ## Preview
 ![Preview of it running](./preview.png)
+
+## Todo
+1. Hotload react
+2. livereload/browserify dev experience
+3. Add additional breakpoints at will
+4. Clean up some stuff
