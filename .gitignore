@@ -1,3 +1,5 @@
 node_modules
-public
+public/*.js
+public/*.css
+public/*.map
 .DS_Store
