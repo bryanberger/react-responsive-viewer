@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack -d --watch",
     "build": "webpack -p",
-    "start": "node src/server/server.js"
+    "start": "node src/server/server.js",
+    "postinstall": "npm run build"
   },
   "author": "Bryan Berger",
   "license": "ISC",
